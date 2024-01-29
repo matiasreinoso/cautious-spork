@@ -1,0 +1,115 @@
+{
+  /** 
+   * [JSON to Class/Type Generator]
+   * 1. Paste JSON sample data here
+   * 2. Convert to TypeScript/Java Code
+   * 3. Compatible with JSON/JSON5(allow comments)
+   **/ 
+        "rutinas": [
+          {
+            "id": 1,
+            "title": "Día 1",
+            "ejercicio": [
+                {
+                    "id": 11,
+                    "nombre": "Sentadillas",
+                    "adicional": "Calentamiento",
+                    "series": 2,
+                    "repeticiones": "15-15",
+                    "cadencia": "3:1:1",
+                    "descanso": 90
+                }
+
+                  {
+                    "id": 12,
+                    "nombre": "Sentadillas",
+                    "adicional": "Cuádriceps",
+                    "series": 3,
+                    "repeticiones": "12-10-8",
+                    "cadencia": "2:0:1",
+                    "descanso": 90
+                },
+
+                  {
+                    "id": 13,
+                    "nombre": "Remo con barra",
+                    "adicional": "Espalda",
+                    "series": 3,
+                      "repeticiones": "12-10-8",
+                    "cadencia": "2:0:1",
+                    "descanso": 90
+                },
+                      {
+                    "id": 14,
+                    "nombre": "Remo con barra",
+                    "adicional": "Espalda",
+                    "series": 3,
+                      "repeticiones": "12-10-8",
+                    "cadencia": "2:0:1",
+                    "descanso": 90
+                },
+                               {
+                    "id": 15,
+                    "nombre": "Press militar con barra",
+                    "adicional": "Hombro",
+                    "series": 3,
+                      "repeticiones": "12-10-8",
+                    "cadencia": "2:0:1",
+                    "descanso": 60
+                },
+                               {
+                    "id": 16,
+                    "nombre": "Press de banca con barra",
+                    "adicional": "Pecho",
+                    "series": 3,
+                      "repeticiones": "12-10-8",
+                    "cadencia": "2:0:1",
+                    "descanso": 60
+                },
+                               {
+                    "id": 17,
+                    "nombre": "Curl con barra",
+                    "adicional": "Biceps",
+                    "series": 3,
+                      "repeticiones": "12-10-8",
+                    "cadencia": "2:1:1",
+                    "descanso": 30
+                },
+                               {
+                    "id": 18,
+                    "nombre": "Press francés",
+                    "adicional": "Triceps",
+                    "series": 3,
+                      "repeticiones": "12-10-8",
+                    "cadencia": "2:0:1",
+                    "descanso": 30
+                },
+                              {
+                    "id": 19,
+                    "nombre": "Elevación de piernas",
+                    "adicional": "Abdominales",
+                    "series": 3,
+                      "repeticiones": "25-22-20",
+                    "cadencia": "2:1:1",
+                    "descanso": 30
+                },
+                               {
+                    "id": 10,
+                    "nombre": "Encogimientos",
+                    "adicional": "Abdominales",
+                    "series": 3,
+                      "repeticiones": "25-22-20",
+                    "cadencia": "2:1:1",
+                    "descanso": 30
+                }
+            ]
+          }]
+          
+
+
+  "author": {
+    "lastName": "Doe",
+    "firstName": "Jane"
+  },
+  "category": ["Non-Fiction", "Technology"]
+}
