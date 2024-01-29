@@ -1,0 +1,31 @@
+<!-- res/navigation/nav_graph.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+
+        <!-- Define conexiones y acciones aquí -->
+
+        <action
+            android:id="@+id/action_mainFragment_to_secondActivity"
+            app:destination="@id/secondActivity" />
+
+    </fragment>
+
+    <activity
+        android:id="@+id/secondActivity"
+        android:name="com.example.SecondActivity">
+        <!-- Puedes definir extras para pasar datos entre actividades -->
+        <argument
+            android:name="exampleArg"
+            app:argType="string"
+            android:defaultValue="Default Argument" />
+    </activity>
+</navigation>
